@@ -6,10 +6,14 @@
  * @return {number} La diferencia de edad, siempre un número positivo
  */
 
+
 function loveDifference(age1, age2) {
-
+	if (age1 > age2) {
+		return age1 - age2;
+	} else {
+		return age2 - age1;
+	}
 }
-
 // Prueba 1: Diferencia básica
 console.log(loveDifference(25, 20)); // Resultado esperado: 5
 

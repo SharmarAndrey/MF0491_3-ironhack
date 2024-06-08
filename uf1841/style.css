@@ -1,22 +1,48 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body {}
+body {
+	font-family: Verdana;
+}
 
 a {
-    text-decoration: none;
-    font-weight: 700;
+	text-decoration: none;
+	font-weight: 700;
 }
 
 div {
-    width: fit-content;
+	width: fit-content;
+	font-size: 1.2rem;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-left: 8px solid;
 }
 
-.danger {}
+.danger {
+	background-color: #ffdddd;
+	border-color: #f44336;
+}
 
-.success {}
+.success {
+	background-color: #ddffdd;
+	border-color: #04aa6d;
+}
 
-.info {}
+.info {
+	background-color: #e7f3fe;
+	border-color: #2196f3;
+}
 
-.warning {}
+.warning {
+	background-color: #ffffcc;
+	border-color: #ffeb3b;
+	position: relative;
+}
+
+.warning-icon {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 25px;
+}
